@@ -1,0 +1,68 @@
+#POST http://localhost:8080/users
+#Content-Type: application/json
+#
+#{
+#  "id": <number>,
+#  "add": <number>
+#}
+#
+
+POST http://localhost:8080/modify
+Content-Type: application/json
+
+{
+  "id": 1,
+  "add": 5
+}
+
+###
+
+POST http://localhost:8080/modify
+Content-Type: application/json
+
+{
+  "id": 1,
+  "add": 5
+}
+
+###
+
+POST http://localhost:8080/modify
+Content-Type: application/json
+
+{
+  "id": 1,
+  "add": 5
+}
+
+###
+
+POST http://localhost:8080/modify
+Content-Type: application/json
+
+{
+  "id": 2,
+  "add": 5
+}
+
+###
+
+POST http://localhost:8080/modify
+Content-Type: application/json
+
+{
+  "id": 3,
+  "add": 5
+}
+
+###
+
+POST http://localhost:8080/modify
+Content-Type: application/json
+
+{
+  "id": 4,
+  "add": 5
+}
+
+###
